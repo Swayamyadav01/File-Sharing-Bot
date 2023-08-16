@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URl", "mongodb+srv://madara:madara@cluster0.mr
 DB_NAME = os.environ.get("DATABASE_NAME", "MadaraDb")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001448132548"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
